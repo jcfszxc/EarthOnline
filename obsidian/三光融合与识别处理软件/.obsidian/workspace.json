@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "1393b8bf384340ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6b1d054a7f67ad8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fb6a299506fe5af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "三光融合与识别处理软件文档管理中心.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "三光融合与识别处理软件文档管理中心"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0a743d221c9c6875",
+    "type": "split",
+    "children": [
+      {
+        "id": "4316c95fea6d49e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56eb3f2f39db5f82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4cbc0c37d209c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "保密",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6145a4ef237281ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.500732421875
+  },
+  "right": {
+    "id": "2cebfe07eed3b373",
+    "type": "split",
+    "children": [
+      {
+        "id": "38e46ec12546acae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ca39909bef36fd1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "软件研制任务书.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "软件研制任务书 的反向链接列表"
+            }
+          },
+          {
+            "id": "aacf17fcacb34eb4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "三光融合与识别处理软件方案报告.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "三光融合与识别处理软件方案报告 的出链列表"
+            }
+          },
+          {
+            "id": "6d8462cf1d9593da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "923ce3f0a0c7e532",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "三光融合与识别处理软件研制总结报告.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "三光融合与识别处理软件研制总结报告 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "20ba533303e9b5fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75370ec80e2912f5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "三光融合与识别处理软件研制总结报告.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3426659705705374,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "三光融合与识别处理软件研制总结报告 的关系图"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5fb6a299506fe5af",
+  "lastOpenFiles": [
+    "三光融合与识别处理软件源代码.md",
+    "三光融合与识别处理软件研制总结报告.md",
+    "三光融合与识别处理软件测试记录.md",
+    "三光融合与识别处理软件测试大纲.md",
+    "三光融合与识别处理软件测试报告.md",
+    "未命名.md",
+    "三光融合与识别处理软件文档管理中心.md",
+    "三光融合与识别处理软件培训手册.md",
+    "三光融合与识别处理软件用户手册.md",
+    "三光融合与识别处理软件配置及使用说明.md",
+    "三光融合与识别处理软件方案报告.md",
+    "三光融合与识别处理软件需求规格说明.md",
+    "三光融合与识别处理软件设计报告.md",
+    "三光融合与识别处理软件设计文档.md",
+    "XMU-SG-SDD-CSU-UDP-002.md",
+    "图片仓库.zip",
+    "三光融合与识别处理软件研制任务书.md",
+    "评审意见追踪管理.md",
+    "三光融合与识别处理软件测试说明.md",
+    "三光融合与识别处理软件测试计划.md",
+    "test_markdown_counter.py",
+    "三光融合与识别处理软件评审意见追踪管理.md",
+    "标识库/XMU-SG-TRD-F005.md",
+    "标识库/XMU-SG-SRS-ObjectDetection.md",
+    "图片仓库/Pasted image 20250811014831.png",
+    "图片仓库/9811a3b4ddd7bb00bfbf24c6abb3b20c.png",
+    "图片仓库/f6c9e49f-1f83-4dcb-b3be-260b677c4034.png",
+    "图片仓库/4c7e2e3c0f1cbfcc3ea899fbb3eb87ce.png",
+    "标识库/XMU-SG-STS.md",
+    "21ff3a2e-6e6d-483e-9075-d824bcb9de3b.png",
+    "标识库/XMU-SG-CUS.md",
+    "图片仓库/Pasted image 20250811215253.png",
+    "图片仓库/Pasted image 20250811215248.png",
+    "图片仓库/Pasted image 20250811210323.png",
+    "图片仓库/Pasted image 20250811215241.png",
+    "图片仓库/Pasted image 20250811215233.png",
+    "标识库/XMU-SG-STM.md",
+    "标识库/XMU-SG-SDSR.md",
+    "标识库",
+    "图片仓库"
+  ]
+}
