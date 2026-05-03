@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "27e65051a6951a59",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d645372863d436a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11d15092713aa326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名 3"
+            }
+          },
+          {
+            "id": "58c59b44391ec9c7",
+            "type": "leaf",
+            "state": {
+              "type": "planner-weekly",
+              "state": {},
+              "icon": "table-2",
+              "title": "4月, 27–5月, 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca1d6af84527f626",
+    "type": "split",
+    "children": [
+      {
+        "id": "d049ff00b8701242",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15ee61fb2ac57ace",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5b72e70db52e689a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "1b4c8c25b7c786a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5821de7edf22137",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3489c944d40cd8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ba72eef9cf97ce6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "同花顺.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "同花顺 的反向链接列表"
+            }
+          },
+          {
+            "id": "9628c99eadb506b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "River of Time/2026-04/2026-04-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2026-04-16 的出链列表"
+            }
+          },
+          {
+            "id": "355d69a75fa2b9a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c2d914a677a4d9f3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "8a6fd4deccd552aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "River of Time/2026-04/2026-04-16.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-04-16 的大纲"
+            }
+          },
+          {
+            "id": "358610a7e0ab7d8c",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 462.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "11d15092713aa326",
+  "lastOpenFiles": [
+    "River of Time/2026-05/2026-05-02.md",
+    "未命名 3.md",
+    "River of Time/2026-05/2026-05-01.md",
+    "River of Time/2026-05",
+    "River of Time/2026-04/2026-04-26.md",
+    "鲨鲨.md",
+    "未命名 2.md",
+    "River of Time/2026-04/2026-04-27.md",
+    "River of Time/2026-04/2026-04-24.md",
+    "River of Time/2026-04/2026-04-25.md",
+    "未命名 1.md",
+    "River of Time/2026-04/2026-04-23.md",
+    "2026-04-19.md",
+    "同花顺.md",
+    "未命名.md",
+    "River of Time/2026-04/2026-04-22.md",
+    "River of Time/2026-04/2026-04-21.md",
+    "River of Time/2026-04/2026-04-20.md",
+    "River of Time/2026-04/2026-04-19.md",
+    "River of Time/2026-04/2026-04-18.md",
+    "River of Time/2026-04/2026-04-17.md",
+    "River of Time/2026-04/2026-04-16.md",
+    "River of Time/2026-04/2026-04-15.md",
+    "Prompts/Prompts anki.md",
+    "27所项目常用指令.md",
+    "Prompts",
+    "Project",
+    "c03819-4388.md",
+    "River of Time/2026-04/2026-04-14.md",
+    "未命名.base",
+    "River of Time/2026-04",
+    "Day Planners/未命名.canvas",
+    "River of Time"
+  ]
+}
