@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "8aa5216da54c8613",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd8e0e378a6bdd88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cf14fb7c012d5d3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a2b8e5944bbc479",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea3226c7181d64da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1eb26264b77cf4f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2689933b75bbf30e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "2024-11-13 1",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9be9cf7db715a9bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc394c2cdd5a41d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d35ca2c2394fb88",
+        "type": "tabs",
+        "dimension": 19.780927835051546,
+        "children": [
+          {
+            "id": "124dc558491dfb10",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7d79d472d9d1e2cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "39724151e7211d97",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "0430c3281db0f1b1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "96f6268bc74671bb",
+        "type": "tabs",
+        "dimension": 18.298969072164947,
+        "children": [
+          {
+            "id": "9f8fa8b939ab88a0",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224423,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      },
+      {
+        "id": "304d105d777945b3",
+        "type": "tabs",
+        "dimension": 61.920103092783506,
+        "children": [
+          {
+            "id": "feefc7ee40048435",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "ae1a98e6b1d943b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "1b01005635f32596",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 411.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0430c3281db0f1b1",
+  "lastOpenFiles": [
+    "README.md",
+    "软件使用/Obsidian/双向链接.md",
+    "软件使用/Obsidian/obsidian 使用技巧.md",
+    "日记/日记仓库/2024/2024-11/2024-11-09.md",
+    "202411130300.md",
+    "202411130301.md",
+    "202411130259.md",
+    "日记/日记仓库/2024/2024-11/2024-11-12.md",
+    "日记/流水日记.md",
+    "日记/日记仓库/2024/2024-11/2024-11-13.md",
+    "软件使用/Airtcp/Airtcp 使用人名单.md",
+    "2024-11-13 1.md",
+    "日记/日记仓库/2024/2024-11/2024-11-13 1.md",
+    "工作台/代办.md",
+    "三光融合与识别处理软件-软件任务书.md",
+    "张志林.md",
+    "工作台",
+    "日记/日记仓库/2024/2024-11/2024-11-10.md",
+    "刘震宇.md",
+    "日记/日记仓库",
+    "日记/日记仓库/2024",
+    "日记/日记仓库/2024/2024-11",
+    "日记",
+    "软件使用/Airtcp",
+    "软件使用/Obsidian",
+    "软件使用",
+    "202411130129.md"
+  ]
+}
