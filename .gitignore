@@ -2,3 +2,7 @@
 # 忽略VIS_NIR_Radar_Fusion_CCT2143_XMU_main项目的运行时文件
 project/VIS_NIR_Radar_Fusion_CCT2143_XMU_main/runtime/
 
+# 忽略 ROS 编译产生的目录
+project/catkin_ws_clean/build/
+project/catkin_ws_clean/devel/
+project/catkin_ws_clean/install/
