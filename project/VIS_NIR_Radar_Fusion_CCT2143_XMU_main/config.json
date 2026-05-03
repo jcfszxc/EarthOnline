@@ -1,0 +1,159 @@
+{
+  "default_blend_type": "VI",
+  "DEBUG_OPTIONS": {
+    "strict_detection_mode": true,
+    "draw_bounding_boxes_locally": true,
+    "PRINT_RECEIVED_COMM": true,
+    "LOG_RECEIVED_COMM": true,
+    "PRINT_SENT_COMM": false,
+    "LOG_SENT_COMM": false,
+    "LOG_VISIBLE_CAMERA_DATA": false,
+    "LOG_VISIBLE_CAMERA_STATUS": false,
+    "save_images": false,
+    "save_interval": 5,
+    "status_frame_debug": true,
+    "status_frame_modifications": {
+      "6": "00001111",
+      "7": "00000001", 
+      "8": "00000111", 
+      "10": "00000111" 
+    }
+  },
+  "network_settings": {
+    "rtsp_enabled": true,
+    "pj_ip_address": "192.168.127.210",
+    "receive_port": 5000,
+    "send_port": 5100,
+    "interface_name": "eth0"
+  },
+  "video_devices": {
+    "ir": "/dev/video0",
+    "visible": "/dev/video8"
+  },
+  "visible_camera_settings": {
+    "serial_port": "/dev/ttyS4"
+  },
+  "infrared_camera_settings": {
+    "serial_port": "/dev/ttyS7"
+  },
+  "image_dimensions": {
+    "vic": {
+      "width": 1920,
+      "height": 1080
+    },
+    "ir": {
+      "width": 1280,
+      "height": 1024
+    }
+  },
+  "ir_settings": {
+    "description": "greenspace or pseudocolor",
+    "mapping_method": "greenspace"
+  },
+  "video_settings": {
+    "description": "500000 to 4000000",
+    "initial_bps_rate": 500000
+  },
+  "rknn_settings": {
+    "model_path": "models/VIS_NIR_Radar_Fusion_CCT2143_XMU_v0.1.rknn"
+  },
+  "yolo_settings": {
+    "label_name_txt_path": "./models/labels_list.txt",
+    "box_thresh": 0.25,
+    "nms_thresh": 0.45,
+    "obj_class_num": 1
+  },
+  "calibration": {
+    "vic": {
+      "undistortion_k": [
+        [
+          7.5012863963332995e+02,
+          0.0,
+          9.7024677244355769e+02
+        ],
+        [
+          0.0,
+          7.4985736273648990e+02,
+          5.3451263822206283e+02
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "undistortion_d": [
+        [
+          -2.5610207495984375e-02,
+          1.3959869417354318e-02,
+          -5.6024477856761001e-04,
+          1.6170662386737877e-03,
+          -2.8092378160683904e-03
+        ]
+      ]
+    },
+    "ir": {
+      "undistortion_k": [
+        [
+          4.6657019094600258e+02,
+          0.0,
+          6.1436573148207879e+02
+        ],
+        [
+          0.0,
+          4.6673738376504457e+02,
+          5.2876547888405139e+02
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "undistortion_d": [
+        [
+          5.1113111471330193e-02,
+          -2.4299638734852295e-02,
+          1.5429629398373440e-03,
+          1.7167818085733531e-03,
+          1.6280272349683662e-03
+        ]
+      ],
+      "registration_h": [
+        [
+          1.4825498759262450e+00,
+          3.3914954171038827e-03,
+          -2.8648779384495423e+01
+        ],
+        [
+          -1.7837645133103416e-02,
+          1.5230567107950270e+00,
+          -2.4099381572278853e+02
+        ],
+        [
+          -4.2638125367882139e-05,
+          8.9141459621428169e-06,
+          1.0
+        ]
+      ]
+    }
+  },
+  "lidar_settings": {
+    "enable_thread": true,
+    "port_dat": 2368,
+    "port_dev": 2369,
+    "lidar_ip":"192.168.1.200",
+    "intrinsic": {
+      "fx": 750.12863963,
+      "fy": 749.85736274,
+      "cx": 970.24677244,
+      "cy": 534.51263822
+    },
+    "extrinsic": [
+      [ -0.99986201135, -0.015889653056, -0.0048453267248, 0.0051620077721 ],
+      [ -0.0051130739367, 0.01685330564, 0.99984489925, 0.056689694045 ],
+      [ -0.015805528787, 0.99973170652, -0.016932225046, -0.030245351176 ],
+      [ 0, 0, 0, 1 ]
+    ]
+  }
+}
