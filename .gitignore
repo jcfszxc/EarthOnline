@@ -6,3 +6,19 @@ project/VIS_NIR_Radar_Fusion_CCT2143_XMU_main/runtime/
 project/catkin_ws_clean/build/
 project/catkin_ws_clean/devel/
 project/catkin_ws_clean/install/
+
+# 鲨鲨程序
+project/shasha/pets/pet_original/_internal/
+project/shasha/pets/pet_original/data/
+project/shasha/pets/pet_original/data/pet.exe
+project/shasha/pets/pet_jcfszxc/build/
+project/shasha/pets/pet_jcfszxc/data/
+project/shasha/pets/pet_jcfszxc/dist/
+project/shasha/pets/pet_jcfszxc/installer/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略可执行文件
+*.exe
