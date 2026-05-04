@@ -1,0 +1,52 @@
+dataVersion: 2
+dynamic:
+  95948971:
+    name: "鲨鲨的小耗子君"
+    last: 0
+    lastLive: 0
+    contacts:
+    - "group:937300235"
+    sourceRefs:
+    - "direct:group:937300235"
+    banList: {}
+  3493298639472884:
+    name: "鲨宝Official"
+    last: 0
+    lastLive: 0
+    contacts:
+    - "group:937300235"
+    - "group:242361116"
+    sourceRefs:
+    - "direct:group:937300235"
+    - "direct:group:242361116"
+    banList: {}
+  3546606687226085:
+    name: "鲨鲨杀杀杀ovo"
+    last: 0
+    lastLive: 0
+    contacts:
+    - "group:937300235"
+    sourceRefs:
+    - "direct:group:937300235"
+    banList: {}
+  3546730930899337:
+    name: "卡拉Kira"
+    last: 0
+    lastLive: 0
+    contacts:
+    - "group:937300235"
+    sourceRefs:
+    - "direct:group:937300235"
+    banList: {}
+filter: {}
+dynamicPushTemplate: {}
+livePushTemplate: {}
+liveCloseTemplate: {}
+dynamicPushTemplateByUid: {}
+livePushTemplateByUid: {}
+liveCloseTemplateByUid: {}
+dynamicColorByUid: {}
+atAll: {}
+group: {}
+bangumi: {}
+linkParseBlacklist: []
