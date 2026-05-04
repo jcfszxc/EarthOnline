@@ -1,0 +1,82 @@
+admin: 1098756532
+enableConfig:
+  debugMode: false
+  drawEnable: true
+  pushDrawEnable: true
+  notifyEnable: true
+  liveCloseNotifyEnable: true
+  lowSpeedEnable: false
+  translateEnable: false
+  proxyEnable: false
+  cacheClearEnable: true
+accountConfig:
+  cookie: "SESSDATA=c59508f8%2C1790185270%2C9c1ed%2A31CjCm5DeTBohRkEevPrZfl35tCUf8nrU5Ea2M-xIgUIV09SdqE9wkrbCAalsCymGokrsSVm9KS2lfRUxhN19YSzFmTFJDTzgtZkI3Tzd1SUlrSnhqQ1RmOE9kMTRmVzlmZGNOQjYzbEFTZXYxWlNRVDhBQVBSeFNlUjI4T2NCbEd0MUt0V3JaQnhRIIEC;\
+    \ bili_jct=17ae9501339dbcbcacc15b1f4534370e;"
+  autoFollow: true
+  followGroup: "Bot关注"
+checkConfig:
+  interval: 5
+  liveInterval: 5
+  lowSpeedTime: "22-8"
+  lowSpeedRange: "60-240"
+  normalRange: "30-120"
+  checkReportInterval: 10
+  timeout: 10
+pushConfig:
+  messageInterval: 100
+  pushInterval: 500
+  toShortLink: false
+imageConfig:
+  quality: "1000w"
+  theme: "v3"
+  font: ""
+  defaultColor: "#d3edfa"
+  cardOrnament: "FanCard"
+  colorGenerator:
+    hueStep: 30
+    lockSB: true
+    saturation: 0.25
+    brightness: 1.0
+  badgeEnable:
+    left: true
+    right: false
+templateConfig:
+  defaultDynamicPush: "OneMsg"
+  defaultLivePush: "OneMsg"
+  defaultLiveClose: "SimpleMsg"
+  dynamicPush:
+    "DrawOnly": "{draw}"
+    "TextOnly": "{name}@{type}\n{link}\n{content}\n{images}"
+    "OneMsg": "{draw}\n{name}@{type}\n{link}"
+    "TwoMsg": "{draw}\r{name}@{uid}@{type}\n{time}\n{link}"
+  livePush:
+    "DrawOnly": "{draw}"
+    "TextOnly": "{name}@直播\n{link}\n标题: {title}"
+    "OneMsg": "{draw}\n{name}@直播\n{link}"
+    "TwoMsg": "{draw}\r{name}@{uid}@直播\n{title}\n{time}\n{link}"
+  liveClose:
+    "SimpleMsg": "{draw}\n{name} 直播结束啦!\n直播时长: {duration}"
+    "ComplexMsg": "{draw}\n{name} 直播结束啦!\n标题: {title}\n直播时长: {duration}"
+  footer:
+    dynamicFooter: ""
+    liveFooter: ""
+    footerAlign: "LEFT"
+cacheConfig:
+  downloadOriginal: true
+  expires:
+    "DRAW": 7
+    "IMAGES": 7
+    "EMOJI": 7
+    "USER": 7
+    "OTHER": 7
+proxyConfig:
+  proxy: []
+translateConfig:
+  cutLine: "\n\n〓〓〓 翻译 〓〓〓\n"
+  baidu:
+    APP_ID: ""
+    SECURITY_KEY: ""
+linkResolveConfig:
+  triggerMode: "At"
+  drawEnable: true
+  returnLink: false

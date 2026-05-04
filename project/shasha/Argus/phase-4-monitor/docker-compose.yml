@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  dynamic-bot:
+    image: menghuanan/dynamic-bot:v1.7.43
+    container_name: dynamic-bot
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+      - ./temp:/app/temp
+      - ./logs:/app/logs
+    network_mode: "bridge"  # 使用 bridge 网络模式
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

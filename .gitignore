@@ -1,5 +1,7 @@
-
-# 忽略VIS_NIR_Radar_Fusion_CCT2143_XMU_main项目的运行时文件
+# ==========================================
+# 1. 项目特定的运行时与数据目录
+# ==========================================
+# 忽略 VIS_NIR_Radar_Fusion 项目的运行时文件
 project/VIS_NIR_Radar_Fusion_CCT2143_XMU_main/runtime/
 
 # 忽略 ROS 编译产生的目录
@@ -7,6 +9,77 @@ project/catkin_ws_clean/build/
 project/catkin_ws_clean/devel/
 project/catkin_ws_clean/install/
 
+# 忽略 鲨鲨程序 的各类数据与日志
+project/shasha/Argus/phase-2-recorder/data/recordings/
+project/shasha/Argus/phase-2-recorder/data/software/*
+project/shasha/Argus/phase-3-uploader/data/software/*
+project/shasha/Argus/phase-4-monitor/data/*
+project/shasha/Argus/phase-4-monitor/logs/*
+
+# ==========================================
+# 2. Python 专属忽略规则
+# ==========================================
+# 虚拟环境（你之前提到的 venv）
+venv/
+env/
+.venv/
+
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# 分发与打包产物
+*.egg-info/
+dist/
+build/
+*.spec
+*.iss
+
+# ==========================================
+# 3. 前端 (Node.js / Vite) 专属忽略规则
+# ==========================================
+# 依赖包目录（体积巨大，绝对不能提交）
+node_modules/
+
+# 打包构建产物
+dist/
+.vite/
+
+# 运行日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 4. 操作系统与 IDE 产生的垃圾文件
+# ==========================================
+# Windows 系统
+*.exe
+*.bat
+*.cmd
+Thumbs.db
+desktop.ini
+
+# macOS 系统
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE 配置（避免个人编辑器配置干扰团队）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 5. 敏感信息与环境变量
+# ==========================================
+# 本地环境变量文件（如果包含数据库密码、API密钥等，千万别提交）
+.env
+.env.local
 # 鲨鲨程序
 project/shasha/pets/pet_original/_internal/
 project/shasha/pets/pet_original/data/
